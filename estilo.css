@@ -36,7 +36,6 @@
     display: flex;
     margin: 0 auto;
     background-color: #D9A300;
-    ;
     height: 35px;
     list-style: none;
     width: 1240px;
@@ -69,31 +68,145 @@ border: 2px solid #000000;
 }
 
 .fotos{
- padding-left: 200px;
- display: flex;
+  display: flex;
   margin: 0 auto ;
-  width: 1280px;
+  width: 1195px;
+  justify-content: space-between;
+  
 }
-
-.titulo02{
+ 
+.text1 a{
     height: 35px;
     list-style: none;
-    width: 0 auto ;
-    align-items: center;
-    display: flex;
-    text-align: center;
+    text-decoration: none;
+    padding-left: 125px;
+    font-size: 15px;
+color: black;
+list-style: none;
+}
+.text1{
+ list-style:none;
 }
 
-.titulo02 a{
+ 
+.text2 a{
+    height: 35px;
+    list-style: none;
     text-decoration: none;
+    padding-left: 135px;
     font-size: 15px;
-    color: black;
-    padding-left: 390px;  
-    text-align: center;
+color: black;
 }
+.text2{
+    list-style:none;
+}
+
+ 
+.text3 a{
+    height: 35px;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 130px;
+    font-size: 15px;
+color: black;
+}
+.text3{
+    list-style:none;
+
+}
+
 
 .divisor2{
     width: 1190px;
     height: 0px;
     border: 2px solid #000000; 
+}
+.titulo2{
+    width: 1280px;
+    padding-left: 355px;
+    font-size: 40px;
+}
+
+.titulo03{
+    font-size: 40px;
+}
+
+.lista1{
+    list-style: none;
+    font-weight: 600;
+    height: 187px;
+}
+
+.lista2{
+    list-style: none;
+    font-weight: 600;
+    height: 190px;
+}
+
+.lista3{
+ list-style: none;
+    font-weight: 600;
+    height: 187px;
+   
+
+}
+
+.colunas{
+    display:flex;
+ 
+    padding-left: 320px;
+}
+
+.coluna-direita{
+    margin-left: 300px;
+    margin-top: -100px;
+
+}
+
+.foto04{
+    display: flex;
+    font-size: 11px ;
+}
+
+.text04{
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+.text05{
+    color: #D93600;
+    
+}
+
+
+
+.rodape{
+width: 1280px;
+height: 50px;
+background: #333333;
+width: 1280px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+color: white;
+font-size: 10px;
+padding-left: 50px;
+font-style: normal;
+}
+
+.fundo-esquerda img{
+    position: absolute;
+    height: 1040px;
+    top: 0px;
+    left: -7px;
+ width: 320px;
+}
+
+.fundo-direita img{
+    position: absolute;
+    height: 1040px;
+    top: 0px;
+    left: 1592px;
 }
